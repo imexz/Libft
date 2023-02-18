@@ -15,7 +15,7 @@ SOURCES_BONUS = ft_lstadd_back.c ft_lstadd_front.c ft_lstclear.c \
 				ft_lstnew.c ft_lstsize.c ft_atoi_base.c ft_check_str_for_number.c \
 				ft_has_prefix.c ft_isdigit_base.c ft_isspace.c \
 				get_next_line.c ft_lstlast_prev.c ft_atol.c \
-				ft_strcmp.c ft_isint.c ft_memcpy_gnl.c
+				ft_strcmp.c ft_isint.c ft_memcpy_gnl.c ft_itoa_base.c
 
 OBJECTS = $(SOURCES:.c=.o)
 OBJECTS_BONUS = $(SOURCES_BONUS:.c=.o)

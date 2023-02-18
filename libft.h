@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mstrantz <mstrantz@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mstrantz <@student.42heilbronn.de>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/18 09:21:24 by mstrantz          #+#    #+#             */
-/*   Updated: 2022/01/09 13:30:39 by mstrantz         ###   ########.fr       */
+/*   Updated: 2023/02/18 13:42:44 by mstrantz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -98,5 +98,6 @@ int			ft_atol(const char *str, long *number);
 int			ft_strcmp(const char *str1, const char *str2);
 int			ft_isint(char *str, long *number);
 void		ft_memcpy_gnl(char *dst, const char *src, unsigned int n);
+char		*ft_itoa_base(long n, unsigned int base);
 
 #endif
